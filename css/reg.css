@@ -1,0 +1,4 @@
+.reg-section{
+    background-color: var(--color-black-alpha-700);
+    display: flex;
+}
