@@ -1,5 +1,29 @@
-.reg-section{
-    background-color: var(--color-black-alpha-700);
-    display: flex;
-    
+.container{
+ min-width: var(--lg);
+ margin: var(--gap0) auto;
+ padding: var(--gap40), var(--gap15);
+}
+
+.form{
+    display: block;
+    width: var(--gap500);
+}
+
+.input-field{
+    display: block;
+    width: 50%;
+    border: var(--gap1) solid var(--color-black);
+    border-radius: var(--gap0);
+    font-size: var(--gap20);
+    margin-bottom: var(--gap5);
+}
+
+.error .input-field{
+    border-color: var(--error-color);
+}
+
+.error-label{
+    color: var(--error-color);
+    display: block;
+    margin-bottom: var(--gap5);
 }
