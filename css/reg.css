@@ -18,12 +18,22 @@
     margin-bottom: var(--gap5);
 }
 
-.error .input-field{
-    border-color: var(--error-color);
+.error .input-field {
+    border: 2px solid var(--error-color); 
+}
+
+.valid .input-field {
+    border: 2px solid var(--success-color);
 }
 
 .error-label{
     color: var(--error-color);
+    display: block;
+    margin-bottom: var(--gap5);
+}
+
+.valid-label{
+    color: var(--success-color);
     display: block;
     margin-bottom: var(--gap5);
 }
