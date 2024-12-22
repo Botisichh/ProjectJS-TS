@@ -1,26 +1,28 @@
-<div class="container">
-    <h1 class="">Registration</h1>
+<div class="reg__container">
+    <h1 class="form__tittle">Registration</h1>
     <form action="" class="form" id="add-form">
         <div class="input-box">
-            <input class="input-field" type="text" placeholder="phone" id="phone">
+            <input class="input-field" type="text" placeholder="phone" id="phone" name="phone">
         </div>
         <div class="input-box">
-            <input class="input-field" type="text" placeholder="email" id="email">
+            <input class="input-field" type="text" placeholder="email" id="email" name="email">
         </div>
         <div class="input-box">
-            <input class="input-field" type="text" placeholder="Name" id="name">
+            <input class="input-field" type="text" placeholder="Name" id="first-name" name="first-name">
         </div>
         <div class="input-box">
-            <input class="input-field" type="text" placeholder="Surname" id="surname">
+            <input class="input-field" type="text" placeholder="Surname" id="last-name" name="last-name">
         </div>
         <div class="input-box">
-            <input class="input-field" type="text" placeholder="password" id="password">
+            <input class="input-field" type="password" placeholder="password" id="password" name="password">
         </div>
         <div class="input-box">
-            <input class="input-field" type="text" placeholder="re-enter password" id="confirm-password">
+            <input class="input-field" type="password" placeholder="re-enter password" id="confirm-password" name="confirm-password">
         </div>
-            <button class="send-btn" type="submit">Register</button>
-        <div class="login-link">Already have an account?<a href="/ProjectJS-TS/html/login.html">Login</a></div>
+        <button class="send-btn" type="submit">Register</button>
+        <button id="clear-users-button" class="delete-btn" type="button">Delete All Users</button>
+        <button id="show-users-button" class="view-btn" type="button">Show All Users</button>
+        <!--<div class="login-link">Already have an account? <a href="/ProjectJS-TS/html/login.html">Login</a></div>-->
     </form>
 </div>
-<script src="/ProjectJS-TS/js/regestration.js"></script>
+<script src="/ProjectJS-TS/js/regestration.js" type="module"></script>

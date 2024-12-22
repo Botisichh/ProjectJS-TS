@@ -1,39 +1,100 @@
-.container{
- min-width: var(--lg);
- margin: var(--gap0) auto;
- padding: var(--gap40), var(--gap15);
+.reg__container {
+    max-width: var(--gap600); 
+    margin: 0 auto; 
+    padding: var(--gap20);
+    background-color: var(--color-white);
+    border-radius: var(--gap8);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
-.form{
-    display: block;
-    width: var(--gap500);
+
+.form__tittle {
+    text-align: center;
+    margin-bottom: var(--gap24);
+    font-size: var(--gap24);
+    color: var(--border-color);
 }
 
-.input-field{
-    display: block;
-    width: 50%;
-    border: var(--gap1) solid var(--color-black);
-    border-radius: var(--gap0);
-    font-size: var(--gap20);
-    margin-bottom: var(--gap5);
+
+.input-box {
+    margin-bottom: var(--gap16);
 }
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: var(--gap12);
+    border: 1px solid #ccc;
+    border-radius: var(--gap4);
+    font-size: var(--gap16);
+    box-sizing: border-box;
+}
+
 
 .error .input-field {
-    border: 2px solid var(--error-color); 
+    border-color: var(--error-color);
 }
+
+.error-label {
+    color: var(--error-color);
+    font-size: var(--gap14);
+}
+
 
 .valid .input-field {
-    border: 2px solid var(--success-color);
+    border-color: var(--success-color);
 }
 
-.error-label{
-    color: var(--error-color);
-    display: block;
-    margin-bottom: var(--gap5);
-}
-
-.valid-label{
+.valid-label {
     color: var(--success-color);
+    font-size: var(--gap14);
+}
+
+
+button {
     display: block;
-    margin-bottom: var(--gap5);
+    width: 100%;
+    padding: var(--gap12);
+    margin-top: var(--gap12);
+    font-size: var(--gap16);
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border: none;
+    border-radius: var(--gap4);
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--color-blue);
+}
+
+.delete-btn {
+    background-color: var(--error-color);
+}
+
+.delete-btn:hover {
+    background-color: var(--error-color);
+}
+
+.view-btn {
+    background-color: var(--success-color);
+}
+
+.view-btn:hover {
+    background-color: var(--success-color);
+}
+
+@media (max-width: 768px) {
+    .reg__container {
+        padding: var(--gap16);
+    }
+
+    .input-field {
+        font-size: var(--gap14);
+    }
+
+    button {
+        font-size: var(--gap14);
+    }
 }

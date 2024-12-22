@@ -1,0 +1,51 @@
+.container{
+    max-width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    overflow-x: auto;
+    padding: var(--gap32);
+    border-radius: var(--gap10);
+    box-shadow: 0 4px 16px #ccc;
+    letter-spacing: 1px;
+}
+
+.users__tittle{
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal;
+}
+
+#users-table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.th__item, .td__item {
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.thead {
+    background-color: #f4f4f4;
+}
+
+.users__tittle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn__back {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn__back:hover {
+    background-color: #0056b3;
+}

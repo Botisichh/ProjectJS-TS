@@ -18,14 +18,17 @@
     --secondary-main-color:#d38030;
     --hover-color:rgba(0, 0, 0, 0.6); 
     --secondary-footer-background:#141414;
+    --color-blue: #007bff;
     --success-color: #2ecc71;
     --error-color: #e74c3c;
     --gap0: 0px;
     --gap1: 1px;
     --gap2: 2px;
+    --gap4: 4px;
     --gap5: 5px;
     --gap8: 8px;
     --gap10: 10px;
+    --gap12: 12px;
     --gap14: 14px;
     --gap15: 15px;
     --gap16: 16px;

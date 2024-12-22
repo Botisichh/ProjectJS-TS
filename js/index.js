@@ -1,3 +1,3 @@
 function init() {
-    import('./regestration.js');
+    import('.regestration.js');
 }
