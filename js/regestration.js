@@ -21,7 +21,7 @@ function isInvalidValue(input) {
 
 // Phone number verification
 function phoneValidation(input) {
-    const regex = /^\+380(50|66|99|95|63|68|97|93|67|73)\d{7}$/;
+    const regex = /^\+380(50|66|99|95|63|68|97|93|67|73|98)\d{7}$/; 
     return regex.test(input.trim()); // Remove spaces before checking
 }
 
